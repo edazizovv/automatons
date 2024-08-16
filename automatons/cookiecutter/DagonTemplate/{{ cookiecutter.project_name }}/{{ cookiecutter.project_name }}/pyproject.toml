@@ -1,0 +1,18 @@
+[tool.poetry]
+name = {{ cookiecutter.project_name|tojson }}
+version = "0.0.1"
+description = {{ cookiecutter.description|tojson }}
+authors = [
+  {{ cookiecutter.author_name|tojson }},
+]
+license = {{ cookiecutter.open_source_license|tojson }}
+readme = "README.md"
+packages = [{include = {{ cookiecutter.project_name|tojson }}}]
+
+[tool.poetry.dependencies]
+python = "^{{ cookiecutter.python_version_number }}"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

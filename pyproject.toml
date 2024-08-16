@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "automatons"
+version = "0.0.1"
+description = "General purpose content management tools"
+authors = [
+  "edazizovv",
+]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "automatons"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
