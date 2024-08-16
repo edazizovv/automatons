@@ -6,9 +6,13 @@
 
 General purpose content management tools
 
+Current composition:
+
+* Cookiecutter template for all cases of Python projects (DagonTemplate)
+
 ## STATUS:
 
-<TO BE FILLED>
+Operative
 
 ## MIRO
 
